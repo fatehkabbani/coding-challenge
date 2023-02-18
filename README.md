@@ -1,4 +1,4 @@
-*# My Coding Challenge Solutions
+# My Coding Challenge Solutions
 #### This repository contains my solutions to coding challenges from different
 #### website. I am using this repository to keep track of my progress
 #### and to share my solutions with others.
@@ -20,4 +20,3 @@
 
 #
 #### hope you enjoy my solutions and feel free to contact me if you have any questions
-*
