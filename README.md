@@ -11,6 +11,8 @@
   - [100DaysOfCss](https://100dayscss.com)
   - [my codepen](https://codepen.io/zombie223)
   - [uiverse](https://uiverse.io)
+  - [devchallenges](https://devchallenges.io)
+  - [frontendmentor](https://www.frontendmentor.io)
 # My profile
   - [leetcode](https://leetcode.com/fatihkabbani223/)
   - [codewars](https://www.codewars.com/users/zombie223)
