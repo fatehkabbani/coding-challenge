@@ -12,7 +12,7 @@ var isSameTree = function (a, b) {
 }
 ```
 
-### [leetcode]](https://leetcode.com/problems/same-tree/)
+### [leetcode](https://leetcode.com/problems/same-tree/)
 
 this javascript function, called isSameTree, takes two binary trees as input and returns true if the two trees are the same and false if the two trees are not the same. here's how it works:
 
