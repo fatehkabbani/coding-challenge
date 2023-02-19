@@ -22,17 +22,17 @@ var maximumDifference = function (nums) {
 
 # explanation
 
-## first we need to create a variable to store the maximum difference and a variable to store the difference between the two numbers
+### first we need to create a variable to store the maximum difference and a variable to store the difference between the two numbers
 
-## then we need to loop through the array and for each number we need to loop through the rest of the array and check if the difference between the two numbers is greater than the maximum difference and if it is greater than zero
+### then we need to loop through the array and for each number we need to loop through the rest of the array and check if the difference between the two numbers is greater than the maximum difference and if it is greater than zero
 
-## if it is greater than the maximum difference we need to update the maximum difference with the difference between the two numbers
+### if it is greater than the maximum difference we need to update the maximum difference with the difference between the two numbers
 
-## if the maximum difference is still -1 it means that there is no difference between the two numbers so we need to return -1
+### if the maximum difference is still -1 it means that there is no difference between the two numbers so we need to return -1
 
 # explain the code
 
-## first we need to create a variable to store the maximum difference and a variable to store the difference between the two numbers
+### first we need to create a variable to store the maximum difference and a variable to store the difference between the two numbers
 
 ```js
 let max = -1,
