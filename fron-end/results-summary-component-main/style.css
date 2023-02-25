@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@700&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --blue: hsl(222, 100%, 96%);
+    --light: hsl(241, 100%, 81%);
+    --dark: hsl(224, 30%, 27%);
+    --main-font: 'Hanken Grotesk', sans-serif;
+    --main-font-weight: 700;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.co-container {
+    display: flex;
+    width: 750px;
+    height: 511px;
+    -webkit-box-shadow: 11px 2px 25px -5px rgba(0, 0, 0, 0.5);
+    box-shadow: 11px 2px 25px -5px rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+}
+
+.section-one {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 35px;
+}
+
+
+#score_container h1 {
+    font-family: var(--main-font);
+    font-weight: var(--main-font-weight);
+    font-size: 3.5rem;
+    color: var(--white);
+    margin: 0;
+    padding: 0;
+}
+
+#score_container span {
+    font-size: 18px;
+    font-family: var(--main-font);
+    font-weight: var(--main-weight-font);
+    color: var(--light)
+}
+
+#score_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: linear-gradient(hsla(256, 72%, 26%, 1), hsla(241, 72%, 26%, 0));
+}
+
+.section-one>span {
+    font-size: 32px;
+    font-family: var(--main-font);
+    font-weight: var(--main-weight-font);
+    color: var(--white);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#resault {
+    font-size: 25px;
+    font-family: var(--main-font);
+    font-weight: var(--main-weight-font);
+    color: var(--light);
+}
+
+span+p {
+    font-size: 18px;
+    font-family: var(--main-font);
+    font-weight: var(--main-weight-font);
+    color: var(--light);
+    justify-content: center;
+    max-width: 70%;
+    text-align: center;
+}
+
+.section-two {
+    height: 100%;
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    border-radius: 35px;
+    flex-flow: column;
+
+}
+
+.section-two h1 {
+    font-family: var(--main-font);
+    font-weight: var(--main-font-weight);
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--main-font);
+    font-weight: var(--main-font-weight);
+    height: 55px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.row:last-child {
+    margin-bottom: 40px;
+}
+
+#firstrow {
+    background-color: hsla(0, 100%, 67%, 20%);
+}
+
+
+#secondrow {
+    background-color: hsla(39, 100%, 56%, 20%);
+}
+
+#thirdrow {
+    background-color: hsla(96, 100%, 56%, 20%);
+}
+
+#forthrow {
+    background-color: hsla(234, 85%, 45%, 20%);
+}
+
+.reaction_collection+button {
+    align-self: center;
+}
+
+button {
+    width: 80%;
+    height: 50px;
+    border-radius: 20px;
+    background: linear-gradient(hsl(234, 85%, 45%), hsl(241, 81%, 54%));
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: var(--main-font);
+    font-weight: var(--main-font-weight);
+    color: var(--white);
+}
+
+@media only screen and (max-width:450px) {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .co-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .section-one {
+        height: 50%;
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    
+}
