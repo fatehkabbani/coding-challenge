@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root {
+    --first-font: 'Montserrat', sans-serif;
+    --second-font: 'Fraunces', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: hsl(30, 38%, 92%);
+
+}
+
+.co-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+
+}
+
+img {
+    max-width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.section_two {
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%)
+}
+
+.button {
+    display: block;
+}
+
+.title {
+    max-width: 200px;
+    font-size: 2em;
+    font-family: var(--second-font);
+    margin: 0;
+}
+
+.discription {
+    font-size: clamp(0.625rem, 0.425rem + 0.8vw, 0.875rem);
+    font-family: var(--first-font);
+    max-width: 225px;
+    padding-right: 50px;
+}
+
+.price {
+    color: hsl(158, 36%, 37%);
+    font-family: var(--second-font);
+    font-size: 2em;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.price>span {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+    font-size: calc(100% - .6em);
+    padding-left: 20px;
+}
+
+.button {
+    width: 85%;
+    padding: 10px;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    font-family: var(--first-font);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.image2 {
+    display: none;
+}
+
+@media only screen and (max-width: 450px) {
+    .co-container {
+        flex-direction: column;
+    }
+
+    img {
+        border-radius: 0px;
+    }
+
+    .section_two {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .image1 {
+        display: none;
+    }
+
+    .image2 {
+        display: block;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+}

@@ -1,8 +1,12 @@
 {
     "cSpell.words": [
-        "fateh"
+        "Polge"
     ],
+    "cSpell.ignoreWords": [
+        "parfum"
+    ],
+    "cSpell.language": "en,lorem",
     "cSpell.enableFiletypes": [
-        "ignore"
+        "!ignore"
     ]
 }
