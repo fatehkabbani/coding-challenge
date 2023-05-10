@@ -84,7 +84,7 @@ n.add(nums[i]);
 ```js
 return false;
 ```
-# third sulotion (i think it's the best one i don't know why i didn't thought about it before think outside the box)
+# third sulotion (the best one)
 ```js
 var containsDuplicate = function (nums){
     let n = new Set(nums);
